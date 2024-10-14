@@ -43,6 +43,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-height: 47px;
 }
 .header-content a {
   display: inline-block;
@@ -53,6 +54,15 @@ header {
 .header-content a img {
   max-height: 42px;
   max-width: 100%;
+}
+.with-bg {
+  background-color: #000;
+  display: inline-flex !important;
+  padding: 14px 10px;
+  align-items: center;
+}
+.header-content .with-bg img {
+  width: 87px;
 }
 /* header css end */
 
