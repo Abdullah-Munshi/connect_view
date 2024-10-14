@@ -1,0 +1,151 @@
+/* base css start */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #3b526a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-size: 15px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+img {
+  max-width: 100%;
+}
+.cs_container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* base css end */
+/* header css start */
+header {
+  padding: 16px 0;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content a {
+  display: inline-block;
+}
+.header-content a:not(:last-child) {
+  margin-right: 12px;
+}
+.header-content a img {
+  max-height: 50px;
+  max-width: 100%;
+}
+/* header css end */
+
+/* main content css start */
+.hero-area {
+  text-align: center;
+  padding-top: 15px;
+}
+.hero-area h1 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.underline-link {
+  display: inline-block;
+  color: #3b526a;
+  transition: 0.3s;
+}
+
+.box-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.box-btn:hover {
+  background: #3b526a;
+}
+.hero-area .box-btn {
+  margin-top: 15px;
+}
+.follower-showcase {
+  margin-top: 42px;
+  margin-bottom: 35px;
+}
+.follower-showcase > p {
+  max-width: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+.follower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.follower p {
+  background-color: #222328;
+  color: #fff;
+  margin: 0;
+  border-radius: 13px;
+  padding: 8px 15px;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 500;
+}
+.follower .badge {
+  width: 74px;
+  padding: 0;
+  margin-left: 15px;
+}
+.follower .count {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.h5 {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 9px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+/* main content css end */
+
+/* footer css start */
+
+.footer-content {
+  text-align: center;
+}
+footer {
+  padding: 40px 0;
+}
+.footer-content h6 {
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* footer css end */
