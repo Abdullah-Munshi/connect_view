@@ -29,6 +29,9 @@ img {
 .cs_container {
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* base css end */
 /* header css start */
